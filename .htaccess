@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/?([a-zA-Z_\-/]+)$ index.php?path=$1 [L,QSA]
